@@ -60,8 +60,8 @@ const sabsegarotrek = Trek(
   duration: '16 Days',
   bestTime: '12 Months',
   price: 5000000000000000,
-  image: 'assets/images/pachpokhari.jpeg',
-  overview: 'The Pach Pokhari trek is one of the best and underrated trekking routes in Nepal, featuring traditionals villages, rivers and stunning mountains',
-  highlights: ['High Camp', 'Ridge walk', 'Sagarmatha views'],
+  image: 'assets/images/sabsegarotrek.jpg',
+  overview: 'Your Ass will burnt in this TREK , So dont try it',
+  highlights: ['High Camp', 'Ridge walk', 'Duniya Dekhxas Vai'],
 );
 

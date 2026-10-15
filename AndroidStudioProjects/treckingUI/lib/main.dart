@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:treckingui/screens/landing_screen.dart';
 
+void main() => runApp(const MyApp());
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -18,4 +20,3 @@ class MyApp extends StatelessWidget {
   }
 }
 
-  
