@@ -10,7 +10,7 @@ const everest = Trek(
   difficulty: 'Hard',
   bestTime: 'Mar - May',
   price: 120000,
-  image: 'assets/images/everest.jpg',
+  image: 'images/everest.jpg',
   overview:
       'The journey of a lifetime to the foot of the world\'s highest peak.',
   highlights: ['Kala Patthar viewpoint', 'Sherpa culture', 'Namche Bazaar'],
@@ -26,7 +26,7 @@ const langtang = Trek(
   duration: '15 Days',
   bestTime: 'Jun - Aug',
   price: 15000,
-  image: 'assets/images/langtang.jpg',
+  image: 'images/langtang.jpg',
   overview: 'The Annapurna Circuit is one of the most breathtaking trekking routes in the world, featuring diverse landscapes, traditional villages, and stunning mountain views.',
   highlights: [
     'Thorong La Pass (5,416 m)',
@@ -45,7 +45,7 @@ const pachpokhari = Trek(
   duration: '5 Days',
   bestTime: 'Jan - Mar',
   price: 10000,
-  image: 'assets/images/pachpokhari.jpeg',
+  image: 'images/pachpokhari.jpeg',
   overview: 'The Pach Pokhari trek is one of the best and underrated trekking routes in Nepal, featuring traditionals villages, rivers and stunning mountains',
   highlights: ['High Camp', 'Ridge walk', 'Sagarmatha views'],
 );
@@ -60,8 +60,11 @@ const sabsegarotrek = Trek(
   duration: '16 Days',
   bestTime: '12 Months',
   price: 5000000000000000,
-  image: 'assets/images/sabsegarotrek.jpg',
+  image: 'images/sabsegarotrek.jpg',
   overview: 'Your Ass will burnt in this TREK , So dont try it',
   highlights: ['High Camp', 'Ridge walk', 'Duniya Dekhxas Vai'],
 );
+
+const popularTreks = [langtang, pachpokhari];
+const recommendedTreks = [sabsegarotrek, pachpokhari];
 

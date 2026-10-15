@@ -12,7 +12,7 @@ class landingScreen extends StatelessWidget {
       body: Stack(
         fit: StackFit.expand,
         children: [
-          const AppImage('assets/images/welcome.jpg'),
+          const AppImage('images/welcome.jpg'),
           Container(
             decoration: BoxDecoration(
               gradient: LinearGradient(
@@ -52,7 +52,7 @@ class landingScreen extends StatelessWidget {
                     child: ElevatedButton.icon(
                       onPressed: () => Navigator.pushReplacement(
                         context,
-                        MaterialPageRoute(builder: (_) => const homeScreen()),
+                        MaterialPageRoute(builder: (_) => const HomeScreen()),
                       ),
                       style: ElevatedButton.styleFrom(
                         backgroundColor: AppColors.primary,

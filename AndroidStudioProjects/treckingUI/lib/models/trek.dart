@@ -7,7 +7,7 @@ class Trek {
   final String duration;
   final String difficulty;
   final String bestTime;
-  final double price;
+  final int price;
   final String image;
   final String overview;
   final List<String> highlights;
